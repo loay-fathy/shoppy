@@ -1,0 +1,24 @@
+.contact-header
+{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+iframe
+{
+    height: 500px;
+}
+
+input, textarea
+{
+    cursor: text;
+    border: 1px solid #CCC !important;
+    text-align: left;
+    margin: 10px;
+    width: 75%;
+}
+
+::placeholder
+{
+    text-align: left;
+}

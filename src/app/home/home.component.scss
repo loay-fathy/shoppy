@@ -1,0 +1,149 @@
+body
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../assets/images/pexels-artem-beliaikin-1115600.jpg);
+    background-size: 100% 100%;
+}
+
+.btn-white
+{
+    background-color: #FFF;
+}
+
+
+// second section
+
+.centering
+{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.centering h1
+{
+  margin-top: 100px !important;
+}
+
+.parent
+{
+    width: 30%;
+    height: 339px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 7%;
+    border-radius: 3px;
+}
+
+.child
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+}
+
+.category-btn
+{
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+}
+
+
+.parent:hover .child, .parent2:hover .child
+{
+    transform: scale(1.1);
+}
+
+
+.bg-two
+{
+  background-image: url("../../assets/images/banner-05.jpg");
+}
+
+
+// FEATURED PRODUCTS SECTION
+
+
+.img
+{
+    width: 270px;
+    height: 300px;
+}
+
+.img3
+{
+    background-image: url(../../assets/images/item-02.jpg);
+    background-size: contain;
+
+}
+
+.img4
+{
+    background-image: url(../../assets/images/item-07.jpg);
+    background-size: contain;
+}
+
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: relative;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.fa-heart
+{
+    font-size: 27px;
+    position: absolute;
+    left: 110%;
+    cursor: pointer;
+    transition: left .4s ease-in-out;
+}
+
+.fa-heart:hover
+{
+    color: rgb(255, 68, 68) !important;
+}
+
+.layer .btn-dark
+{
+    position: absolute;
+    top: 100%;
+    left: 26%;
+    transition: top .5s ease-in-out;
+}
+
+.img:hover .layer
+{
+    opacity: 1;
+}
+
+.img:hover .layer .btn-dark
+{
+    top: 84%;
+}
+
+.img:hover .fa-heart
+{
+    left: 84%;
+}

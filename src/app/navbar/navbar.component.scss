@@ -1,0 +1,86 @@
+*
+{
+    outline: none;
+}
+
+.main-nav
+{
+    margin-left: 23%;
+}
+
+.radiusing1
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.radiusing2
+{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+option, select
+{
+    font-weight: 600;
+    outline: none;
+}
+
+.search, select, .search-btn
+{
+    height: 30px;
+    border: none !important;
+    margin: 0;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.fa-shopping-cart
+{
+    font-size: 19px;
+}
+
+.rounded
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17px;
+    height: 17px;
+    font-size: 12px;
+    border-radius: 50% !important;
+}
+
+.position-relative p.text-white
+{
+    font-size: 13px;
+}
+
+ul li
+{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-link
+{
+    position: relative;
+}
+
+.main-link:hover::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+

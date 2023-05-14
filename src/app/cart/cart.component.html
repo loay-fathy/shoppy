@@ -1,0 +1,81 @@
+<header class="bg-cart">
+    <div class="text-center shop-desc text-white">
+        <h1 class="m-4">Cart</h1>
+    </div>
+</header>
+
+
+<table class="container mt-5">
+    <tbody>
+        <tr class="th-parent">
+            <th class="pr-5 w-25"></th>
+            <th class="ml-5">PRODUCT</th>
+            <th>PRICE</th>
+            <th class="quanity">QUANTITY</th>
+            <th>TOTAL</th>
+        </tr>
+
+        <tr class="border">
+            <td>
+                <div class="img"></div>
+            </td>
+            <td class="text-muted pl-2">Men T-shirt</td>
+            <td class="text-muted pl-2">$25.00</td>
+            <td class="text-muted pl-2">
+              <input type="number" class="counter" name="" value="1" max="5" min="0">
+            </td>
+            <td class="text-muted pl-2 total">$100.00</td>
+        </tr>
+
+
+        <tr class="border">
+            <td>
+                <div class="img"></div>
+            </td>
+            <td class="text-muted pl-2">Men T-shirt</td>
+            <td class="text-muted pl-2">$50.00</td>
+            <td class="text-muted pl-2">
+              <input type="number" class="counter" name="" value="1" max="5" min="0">
+            </td>
+            <td class="text-muted pl-2 total">$100.00</td>
+        </tr>
+
+        <tr class="border">
+            <td>
+                <div class="img"></div>
+            </td>
+            <td class="text-muted pl-2">Men T-shirt</td>
+            <td class="text-muted pl-2">$100.00</td>
+            <td class="text-muted pl-2">
+                    <input type="number" class="counter" name="" value="1" max="5" min="0">
+            </td>
+            <td class="text-muted pl-2 total">$100.00</td>
+        </tr>
+
+
+    </tbody>
+
+    <div class="p-4 border mt-5 information">
+        <h3>CART TOTALS</h3>
+        <h6 class="my-3 d-inline-block">delivery:</h6>
+        <p class="text-muted ml-4 d-inline">$9.99</p>
+
+        <div class="border-top text-muted my-3"></div>
+
+        <h6>information:</h6>
+        <select name="city" id="city" class="btn border mb-3 d-block mt-4" required>
+            <option value="">City :</option>
+            <option value="cairo">Cairo</option>
+            <option value="aswan">Aswan</option>
+        </select>
+
+        <input type="text" placeholder="Number" class="btn btn-white border mb-3">
+
+        <input type="text" placeholder="Address" class="btn btn-white border">
+
+        <input type="submit" class="btn btn-success w-50 mt-5" value="Order">
+
+
+    </div>
+
+</table>

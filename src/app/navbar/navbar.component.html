@@ -1,0 +1,58 @@
+<nav class="bg-dark">
+    <section class="container">
+
+        <div class="p-1">
+            <i class="fa fa-phone mr-2 text-danger"></i><span class="text-white">+234567890</span>
+            <i class="fa fa-envelope ml-3 mr-2 text-danger"></i><span class="text-white">+234567890</span>
+            <i class="fa fa-location-arrow ml-3 mr-2 text-danger"></i><span class="text-white">Almokkatam 81 street</span>
+
+            <div class="float-right">
+                <span class="text-danger mr-2">$</span> <span class="text-white">USD</span>
+
+                <i class="fa fa-lock ml-3 mr-2 text-danger"></i><span class="text-white pointer" routerLink="/login">Log In</span>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="main-nav p-3">
+        <div routerLink="/" class="pointer d-inline">
+            <h2 class="d-inline-block text-white mr-2">Phonix</h2><i class="fa fa-fire text-danger fa-2x mr-5"></i>
+        </div>
+            <select class="radiusing1 px-2 pointer">
+                <option value="all">All Categories</option>
+                <option value="cover">Cover</option>
+                <option value="handfree">Handfree</option>
+                <option value="charger">Charger</option>
+            </select>
+
+            <input type="text" placeholder="Search" class="search pl-2"/>
+
+            <button class="bg-danger radiusing2 search-btn text-white px-3 mr-5">Search</button>
+
+            <div class="position-relative d-inline-block mx-4 pointer" routerLink="/saved">
+                <i class="fa fa-heart text-white ml-3"></i>
+                <p class="text-white">Your List</p>
+                <div class="rounded text-white bg-danger text-center">1</div>
+            </div>
+
+
+            <div class="position-relative d-inline-block ml-2 pointer" routerLink="/cart">
+                <i class="fa fa-shopping-cart text-white ml-3"></i>
+                <p class="text-white">Your Cart</p>
+                <div class="rounded text-white bg-danger text-center">1</div>
+            </div>
+
+    </section>
+
+
+    <section>
+        <ul class="bg-white border m-0">
+            <li class="main-link" routerLink="/">Home</li>
+            <li class="main-link" routerLink="/categories">Categories</li>
+            <li class="main-link" routerLink="/contact">Contact Us</li>
+        </ul>
+    </section>
+</nav>
