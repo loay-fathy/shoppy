@@ -1,0 +1,41 @@
+.deal
+{
+    height: 532px;
+    background-image: url("../../assets/deal.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.deal div p:first-child{
+    color: #ff5049;
+    margin-bottom: 14px;
+}
+
+.deal h2
+{
+    color: #232f3e;
+    font-size: 30px;
+}
+
+.countDown
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1.5rem;
+    margin: 48px 0;
+}
+
+@media screen and (max-width: 478px) {
+    .countDown
+    {
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+}
+

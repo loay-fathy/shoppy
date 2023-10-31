@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.sub-desc {
+  width: 65%;
+  margin: auto;
+}
+
+.subscribe {
+  padding: 50px 0;
+  background-image: url("../../../assets/news.jpg");
+  width: 95%;
+  margin: 40px auto 0 auto;
+  border-radius: 5px;
+}
+
+.my-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.email-input-parent {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  width: 80%;
+}
+
+.email-input {
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.email-icon {
+  position: absolute;
+  right: 20px;
+  font-size: 18px;
+  color: red;
+}
+
+@media screen and (max-width: 990px) {
+  .my-container {
+    grid-template-columns: 1fr;
+  }
+
+  .sub-desc {
+    text-align: center;
+    width: 95%;
+  }
+
+  .email-input-parent {
+    left: 11%;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,38 @@
+p {
+  margin: 0;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.service-icon {
+  color: #ff5049;
+  transition: all ease-in-out 0.3s;
+  font-size: 30px;
+}
+
+.service-box {
+  padding: 30px;
+}
+
+.service-box:hover .service-icon {
+  transform: rotateY(180deg);
+}
+
+.service-box-text {
+  margin-top: 25px;
+}
+
+.service-box-text h6 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .service-box
+    {
+        border-bottom: 1px solid #CCC;
+    }
+}
